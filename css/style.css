@@ -1,44 +1,193 @@
 /* common css start */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
-body{
-    width: 1440px;
-    margin: 0 auto;
+body {
+  margin: 0 auto;
 }
-li{
-    list-style: none;
-    display: inline-block;
+li {
+  list-style: none;
+  display: inline-block;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 /* common css end */
+span {
+  color: #e55473;
+}
 /* header part start */
-.header_part{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-    padding: 25px;
-    align-items: center;
+.header_part {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+  align-items: center;
+  margin: 0 auto;
 }
-.header_part .header_menu ul li a{
-    margin-right: 40px;
-    font-size: 18px;
-    font-weight: 600;
-    color: green;
+.header_part .header_menu ul li a {
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e55473;
 }
-.header_part .header_menu ul li a:hover{
-    color: #E55473;
-    transition: 0.3s;
-    cursor: pointer;
+.header_part .header_menu ul li a:hover {
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
 }
 /* header part end */
 
 /* banner part start */
+.banner {
+  background: rgba(229, 84, 115, 0.1);
+  height: 100vh;
+  padding: 0px 150px;
+}
+.banner_part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.banner_text {
+  width: 600px;
+}
 
+.banner_text h3 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #272727;
+}
+.banner_text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #272727;
+  padding: 25px 0px;
+}
+.btn-primary {
+  border: 2px solid #e55473;
+  padding: 15px 20px;
+  background: rgba(229, 84, 115, 0.05);
+  color: #E55473;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #E55473;
+    transition: 0.3s ;
+   padding: 15px 20px;
+   border-radius: 5px;
+
+}
+
+.banner_image img {
+  width: 100%;
+  height: 100vh;
+}
 
 /* banner part end */
+
+/* Featured part start */
+.main_title {
+  font-size: 55px;
+  font-weight: 800;
+  color: #272727;
+  text-align: center;
+  padding: 80px 0px 40px 0px;
+}
+.title_description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272727;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.featured {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 150px;
+}
+.flower {
+  background: rgba(167, 33, 98, 0.15);
+  margin: 10px;
+  padding: 110px 55px 0px 55px;
+  border-radius: 250px 250px 0px 0px;
+  height: 400px;
+}
+.flower img {
+  width: 210px;
+}
+.flower_two {
+  background: rgba(5, 151, 160, 0.15);
+  height: 400px;
+}
+.flower_three {
+  background: rgba(71, 125, 17, 0.15);
+  height: 400px;
+  padding: 85px 50px 0px 50px;
+}
+.text {
+  text-align: center;
+  margin: 20px 0px;
+}
+.second_text {
+  margin-top: 100px;
+}
+.img_two {
+  width: 210px;
+}
+.img_three {
+  width: 210px;
+}
+
+/* Featured part end */
+
+/* other part start */
+.other {
+  height: 300px;
+  margin: 120px 150px 80px 150px;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.other_part {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  line-height: 22px;
+}
+/* other part end */
+
+/* hot deal and seller part start */
+.deal{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px 50px 150px;
+    margin-bottom: 100px;
+}
+.deal_text{
+    width: 550px;
+}
+.deal_title{
+    font-size: 40px;
+    color: #272727;
+    font-weight: 600;
+}
+.deal_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #272727;
+    padding: 20px 0px;
+}
+/* hot deal and seller part end */
