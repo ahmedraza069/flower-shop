@@ -1,0 +1,44 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+/* header part start */
+.header_part{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+}
+.header_part .header_menu ul li a{
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: green;
+}
+.header_part .header_menu ul li a:hover{
+    color: #E55473;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/* header part end */
+
+/* banner part start */
+
+
+/* banner part end */
