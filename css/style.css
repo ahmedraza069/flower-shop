@@ -174,7 +174,7 @@ span {
     justify-content: space-around;
     align-items: center;
     padding: 50px 150px 50px 150px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .deal_text{
     width: 550px;
@@ -191,3 +191,16 @@ span {
     padding: 20px 0px;
 }
 /* hot deal and seller part end */
+
+/* social media part start */
+.social_media{
+    margin: 50px 150px 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.media_part img{
+    width: 250px;
+    height: 280px;
+}
+
+/* social media part end */
