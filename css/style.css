@@ -167,6 +167,42 @@ u {
 
 /* Featured part end */
 
+/* birthday gift and weeding git part start */
+.gift{
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.gift_content{
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+.gift_item{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 15px 0px;
+}
+.gift_text{
+  width: 500px;
+}
+.gift_text h3{
+  font-size: 42px;
+  color: #272727;
+  font-weight: 600;
+}
+.gift_text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #272727;
+  padding: 20px 0px;
+}
+.gift_image img{
+ width: 500px;
+
+}
+/* birthday gift and weeding git part end */
+
 /* other part start */
 .other {
   width: 80%;
